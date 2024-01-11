@@ -1,2 +1,5 @@
 def boolean_to_string(b):
-    pass
+    if type(b) is not bool:
+        return
+
+    return str(b)
